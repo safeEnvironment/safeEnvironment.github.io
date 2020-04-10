@@ -1,0 +1,81 @@
+body{
+  /*background-color: hsl(89, 43%, 51%);*/
+  background-image: url('back.jpg');
+  background-size: 1500px;
+}
+
+h1{
+  color: green;
+}
+td{
+  color: purple;
+}
+hr{
+  width: 250px;
+}
+div{
+
+}
+input[type=text], select {
+width: 150%;
+padding: 6px 10px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+align:center;
+margin-left: -35px;
+}
+input[type=password], select {
+width: 150%;
+padding: 6px 10px;
+margin: 5px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-left: -35px;
+}
+input[type=radio], select {
+width: 100%;
+padding: 6px 10px;
+margin: 5px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-left: 100px;
+}
+h5{
+font-style: italic;
+}
+input[type=submit] {
+width: 50%;
+background-color: #4CAF50;
+color: white;
+padding: 6px 10px;
+margin: 5px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+margin-left: 40px;
+}
+
+label
+{
+font: 15px/1.7 'Open Sans', sans-serif;
+color: #333;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+cursor: pointer;
+}
+
+div{
+border: 2px;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+
+}
